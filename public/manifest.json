@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Playing Card Tracker",
+  "name": "An app that keeps track of a deck of playing cards.",
   "icons": [
     {
       "src": "favicon.ico",
