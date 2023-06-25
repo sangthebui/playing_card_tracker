@@ -9,7 +9,7 @@
                 .mini-card { display: none; }
         </style>
 
-        <path id="suit" d="M20.976,57.141c2.879-5.775,4.976-11.7,5.348-18.037c0.342-2.331-1.074-2.37-1.288-0.729
+        <path id="suitc" d="M20.976,57.141c2.879-5.775,4.976-11.7,5.348-18.037c0.342-2.331-1.074-2.37-1.288-0.729
             c-4.076,15.593-25.763,11.37-25.017-3.296c0.604-11.896,12.42-14.454,18.582-10.565c2.434,1.434,2.295,0.575,0.967-0.911
             C10.416,13.391,15.958,0.241,28.331,0c13.38,0.793,16.853,14.87,8.646,23.147c-1.021,0.994-3.283,4.191,0.123,1.956
             c8.287-5.888,19.787,0.443,19.553,9.521c-0.434,16.738-20.84,17.986-25.203,4.006c-0.42-1.55-1.629-2.328-1.295,0.305
@@ -29,15 +29,15 @@
 
         <!-- Top Numeral and Suit -->
         <use xlinkHref="#numeralj" transform="matrix(1,0,0,1,7,12)"/>
-        <use xlinkHref="#suit" transform="matrix(0.4,0,0,0.4,6,51)"/>
+        <use xlinkHref="#suitc" transform="matrix(0.4,0,0,0.4,6,51)"/>
 
         <!-- Bottom Numeral and Suit -->
         <use xlinkHref="#numeralj" transform="matrix(-1,0,0,-1,218,302)"/>
-        <use xlinkHref="#suit" transform="matrix(-0.4,0,0,-0.4,218,263)"/>
+        <use xlinkHref="#suitc" transform="matrix(-0.4,0,0,-0.4,218,263)"/>
 
         <!-- Card Face -->
-        <use xlinkHref="#suit" transform="matrix(0.8,0,0,0.8,38,36)"/><!-- top left -->
-        <use xlinkHref="#suit" transform="matrix(-0.8,0,0,-0.8,186,278)"/><!-- bottom right -->
+        <use xlinkHref="#suitc" transform="matrix(0.8,0,0,0.8,38,36)"/><!-- top left -->
+        <use xlinkHref="#suitc" transform="matrix(-0.8,0,0,-0.8,186,278)"/><!-- bottom right -->
 
         <path fill="#E2CF00"
             d="M62.98,279.226c-0.836,1.194-4.455-7.136-6.777-13.447c-1.145-3.103-2.668-5.658-2.039-6.474c1.656-1.674,5.939-0.178,9.059,2.214
