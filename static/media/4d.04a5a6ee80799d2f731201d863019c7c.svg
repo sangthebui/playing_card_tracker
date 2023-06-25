@@ -10,7 +10,7 @@
                 .mini-card { display: none; }
         </style>
 
-        <polygon id="suit" points="28.5,0 48.612,29 28.5,58 8.388,29"/>
+        <polygon id="suitd" points="28.5,0 48.612,29 28.5,58 8.388,29"/>
         <path id="numeral4" d="M10.34,31.817v-2.812h2.585v-4.635H0v-3.271L13.986,0l2.285,0.008v21.09h3.953v3.271h-3.953l-0.076,4.637h2.167v2.812H10.34L10.34,31.817zM12.925,7.72L4.046,21.097h8.879V7.72z"/>
     </defs>
 
@@ -23,16 +23,16 @@
 
         <!-- Top Numeral and Suit -->
         <use xlinkHref="#numeral4" transform="matrix(1,0,0,1,7,12)"/>
-        <use xlinkHref="#suit" transform="matrix(0.4,0,0,0.4,6,51)"/>
+        <use xlinkHref="#suitd" transform="matrix(0.4,0,0,0.4,6,51)"/>
 
         <!-- Bottom Numeral and Suit -->
         <use xlinkHref="#numeral4" transform="matrix(-1,0,0,-1,218,302)"/>
         <use xlinkHref="#suit" transform="matrix(-0.4,0,0,-0.4,218,263)"/>
 
         <!-- Card Face -->
-        <use xlinkHref="#suit" transform="matrix(1,0,0,1,34,28)"/><!-- top left -->
-        <use xlinkHref="#suit" transform="matrix(1,0,0,1,134,28)"/><!-- top right -->
-        <use xlinkHref="#suit" transform="matrix(-1,0,0,-1,91,286)"/><!-- bottom left -->
-        <use xlinkHref="#suit" transform="matrix(-1,0,0,-1,191,286)"/><!-- bottom right -->
+        <use xlinkHref="#suitd" transform="matrix(1,0,0,1,34,28)"/><!-- top left -->
+        <use xlinkHref="#suitd" transform="matrix(1,0,0,1,134,28)"/><!-- top right -->
+        <use xlinkHref="#suitd" transform="matrix(-1,0,0,-1,91,286)"/><!-- bottom left -->
+        <use xlinkHref="#suitd" transform="matrix(-1,0,0,-1,191,286)"/><!-- bottom right -->
     </g>
 </svg>
